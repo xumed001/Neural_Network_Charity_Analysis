@@ -1,7 +1,7 @@
 # Neural Network Charity Analysis
 <img src="images/nn_1.jpg">
 
-## Overview
+## Project Summary
 This repo uses Machine learning and Neural Networks to create a binary classifier that can predict whether applicants will be successful if funded. The csv dataset contains more than 34,000 organizations that have received funding over a period of time.
 
 The data is preprocessed using pandas and `OneHotEncoder`. After the preprocessing is complete `StandardScaler` is applied and the data is feed to the TensorFlow model.
@@ -22,7 +22,7 @@ The data is preprocessed using pandas and `OneHotEncoder`. After the preprocessi
   - Several steps were taken to try and increase the model’s performance, some of the steps include using `keras_tuner`, changing/optimizing the `input dimension` and lastly
 adding additional `hidden layers` with different configuration of neurons.  
 
-## Summary
+## Conclusion
 In conclusion, while optimization of the model to get past the accuracy of 75% was not meet with this dataset, the deep learning model still came close with 73% accuracy after optimization. 
 Since this is a binary classification problem, it would be more efficient to run a Supervised learning models like Logistic Regression and Random Forest.
 
