@@ -1,5 +1,5 @@
 # Neural Network Charity Analysis
-<img src="images/neural_nets.jpg">
+<img src="images/nn_1.jpg">
 
 ## Overview
 This repo uses Machine learning and Neural Networks to create a binary classifier that can predict whether applicants will be successful if funded. The csv dataset contains more than 34,000 organizations that have received funding over a period of time.
