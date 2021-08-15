@@ -1,8 +1,8 @@
 # Neural Network Charity Analysis
 ## Overview
-This repo uses Machine learning and Neural Networks to create a binary classifier that is capable of predicting whether applicants will be successful if funded. The csv dataset contains more than 34,000 organizations that have received funding over a period of time. t
+This repo uses Machine learning and Neural Networks to create a binary classifier that can predict whether applicants will be successful if funded. The csv dataset contains more than 34,000 organizations that have received funding over a period of time.
 
-The data is preprocessed using pandas and OneHotEncoder. After the preprocessing is complete StandardScaler is applied and the data is feed to the tensorflow model. 
+The data is preprocessed using pandas and `OneHotEncoder`. After the preprocessing is complete `StandardScaler` is applied and the data is feed to the TensorFlow model.
 
 ## Results
 - Data Preprocessing
@@ -15,9 +15,10 @@ The data is preprocessed using pandas and OneHotEncoder. After the preprocessing
   - The columns `EIN` and `NAME` are neither targets nor features, thus removed from the input data.
 
 - Compiling, Training, and Evaluating the Model
-  - As seen on the second image the model has 3 hidden layers with `relu` activation, all composed of 66 neurons and last output layer with `sigmoid` as acticvation.
+  - As seen on the second image the model has 3 hidden layers with `relu` activation, all composed of 66 neurons and last output layer with `sigmoid` as activation.
   - This model was not able to reach 75% or higher target performance, largly due to the limitations of the dataset.
-  - Several steps were taken to try and increase the models performance, some of the steps include using `keras_tuner`, changing/optimizing the `input dimension` and lastly adding additional `hidden layers` with different configuration of neurons.  
+  - Several steps were taken to try and increase the model’s performance, some of the steps include using `keras_tuner`, changing/optimizing the `input dimension` and lastly
+adding additional `hidden layers` with different configuration of neurons.  
 
 ## Summary
 In conclusion, while optimization of the model to get past the accuracy of 75% was not meet with this dataset, the deep learning model still came close with 73% accuracy after optimization. 
